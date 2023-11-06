@@ -3,7 +3,7 @@ from random import randrange
 
 fake = Faker()
 
-with open("users_with_id.txt", "w") as f:
+with open("users.txt", "w") as f:
     for _ in range(100001):
         name = fake.name()
         age = randrange(13, 113)
