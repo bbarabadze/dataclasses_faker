@@ -57,6 +57,7 @@ def main():
         except ValueError:  # Error may raise into the "create_gender_data" function and handled here
             print(f"Cannot process line {idx} in users.txt")
 
+    print("Lost files:")
     pprint(lost_files_dict)
 
 
